@@ -44,4 +44,3 @@ Save the job and start the build.
 ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
 ```
 This error means you have probably entered the wrong branch under Source Code Management.  You need to enter `*/03_01` for the branch.
-
