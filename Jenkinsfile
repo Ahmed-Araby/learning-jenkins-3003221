@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Hello World"'
-                sh 'mvn install'
-                sh 'java -cp target/hello-1.0-SNAPSHOT.jar com.learningjenkins.App'
+                bat 'echo "Hello World"'
+                bat 'mvn install'
+                bat 'java -cp target/hello-1.0-SNAPSHOT.jar com.learningjenkins.App'
             }
         }
     }
