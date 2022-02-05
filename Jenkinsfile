@@ -4,10 +4,8 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Hello World"'
-                sh '''
-                    echo "Multiline shell steps works too"
-                    ls -lah
-                '''
+                sh 'mvn install'
+                sh 'java -cp target/hello-1.0-SNAPSHOT.jar com.learningjenkins.App'
             }
         }
     }
