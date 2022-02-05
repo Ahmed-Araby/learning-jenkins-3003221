@@ -1,4 +1,4 @@
-# Learning Jenkins, 03-01: Using a global build tool
+# Learning Jenkins, 03-01: Using a global build
 
 ## Prerequisites
 You will need to configure Maven as a global build tool
